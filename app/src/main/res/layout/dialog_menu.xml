@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="1920px"
+    android:layout_height="1080px"
+    android:gravity="center">
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="50sp"
+                android:fontFamily="cursive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MENU"/>
+            <Button
+                android:textColor="@color/white"
+                android:id="@+id/btn_highscore"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_button"
+                android:backgroundTint="#809C27B0"
+                android:fontFamily="casual"
+                android:text="High scored"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"/>
+            <Button
+                android:textColor="@color/white"
+                android:backgroundTint="#809C27B0"
+                android:background="@drawable/border_button"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="casual"
+                android:id="@+id/btn_settings"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Sound: ON"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"/>
+            <Button
+                android:textColor="@color/white"
+                android:backgroundTint="#809C27B0"
+                android:background="@drawable/border_button"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="casual"
+                android:id="@+id/btn_back"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Back"/>
+        </LinearLayout>
+    </AbsoluteLayout>
+
+</LinearLayout>

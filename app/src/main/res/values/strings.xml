@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fly to Joy</string>
+    <item type="id" name="id_button"/>
+</resources>
